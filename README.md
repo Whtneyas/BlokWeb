@@ -20,10 +20,11 @@ Sanne 't Hooft (vervangen door jouw naam)
 
 #### Je startniveau:
 hier je startniveau (kies uit zwart, rood óf blauw)
-
+Rode piste 
+ 
 #### Je focus:
 hier je focus (kies uit responsive óf surface plane)
- 
+Surface plane  
 </details>
 
 
