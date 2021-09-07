@@ -38,14 +38,25 @@ Surface plane
 
 ### Je opdracht:
 link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+ https://9292.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
+ ![image](https://user-images.githubusercontent.com/90154152/132340916-f722c94d-be94-48ab-921a-4b8a0c466937.png)
+ ![image](https://user-images.githubusercontent.com/90154152/132341378-64d609e4-ea56-44bb-883d-9b921c1f854f.png)
+
+
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+ 9292
+ De missie van 9292 is om iedereen makkelijk en snel wegwijs te maken in het openbaar vervoer. 
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina"
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+![image](https://user-images.githubusercontent.com/90154152/132341626-92618b23-fa35-4dea-81c1-3122f1117d66.png)
+     ![image](https://user-images.githubusercontent.com/90154152/132341665-3b8aa7e5-a352-4efa-b18d-1287dcd3cc8e.png)
+     ![image](https://user-images.githubusercontent.com/90154152/132341783-8c1f52b5-3530-4eae-a480-8720fadfa17a.png)
+
+
  
 </details>
 
