@@ -48,8 +48,6 @@ link naar de website die je gaat namaken óf de naam/omschrijving van je eigen o
 hier de naam van de pagina  
  9292
  De missie van 9292 is om iedereen makkelijk en snel wegwijs te maken in het openbaar vervoer. 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina"
-
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
 ![image](https://user-images.githubusercontent.com/90154152/132341626-92618b23-fa35-4dea-81c1-3122f1117d66.png)
