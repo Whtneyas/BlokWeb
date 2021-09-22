@@ -1,0 +1,359 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+
+}
+
+/*ROOT*/
+
+:root {
+    --blue: #009ae0 ;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --orange:#ff5400;
+    --borderraduis:.25rem;
+    
+}
+
+/*BODY*/
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: 1em;  
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--gray-dark); 
+}
+
+header h1 {
+    font-size: 1em;
+    color: var(--primary);
+    font-weight:lighter;
+    padding: .5em;  
+}
+
+header img{
+    width:10%;
+}
+
+header img:first-of-type{
+    width: 3em;
+}
+
+header img:nth-of-type(2){
+    position: absolute;
+    right:3em;     
+}
+
+/*OPMAAK HOMEPAGE*/
+section:first-of-type {
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+section:first-of-type h2{
+    color: var(--blue);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    font-weight:400;
+    background-color:#E6E6E3;
+    padding: .3em;
+   
+}
+
+/* FORMULIER HOMEPAGE*/
+Form {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    border:2px solid var(--blue);
+    background-color: var(--white);
+    padding: 1em;
+    
+}
+label{
+    display: flex;
+    flex-direction: column;
+    color:var(--blue);
+   
+}
+input{
+    height: 4em;
+    padding: 1em;
+   
+}
+
+form button{
+    padding: 1em;
+    width: 100%;
+    margin-top:1em;
+    border-radius: var(--borderraduis);
+    background-color: rgba(34, 34, 34);
+    color: white;
+    font-size: 1em;
+    border:rgba(34, 34, 34,);
+    font-weight: bold;
+    box-shadow: 2px 3px 4px black;
+    
+}
+/* opmaak voor de e-ticket*/
+section:first-of-type article h3{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+section:first-of-type article {
+    color:var(--white);
+    font-size: .8rem;
+    text-align: center;
+    border-radius: .25rem;
+    background-color: black;
+    padding: 1em;   
+    margin-top: 1em;
+    opacity: 80%;
+}
+section:first-of-type p{
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section:first-of-type p:last-of-type{
+        font-size: 1.5em;
+}
+/*opmaak voor de apps*/
+article:first-of-type ul{
+    position: relative;
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+/*SECTION  Veel bezocht 3*/
+section:nth-of-type(2) h5 ul li{
+    font-size:14px;
+    border: 1px solid black ;
+
+}
+
+section:nth-of-type(2) li{
+    list-style: none;
+}
+
+section:nth-of-type(2) a {
+    text-decoration: none;
+    color: var(--blue);
+    font-size: 14px;
+}
+
+
+/*EERST FOOTER*/
+footer:only-of-type{
+  background-color: #222222;
+  color: var(--white);
+  padding: .5em;
+}
+footer:only-of-type{
+    text-align: center;
+}
+
+footer:only-of-type i {
+    font-size: .8rem;
+}
+footer:only-of-type ul{
+    display: flex;
+   list-style: none;
+}
+
+footer:only-of-type ul img{
+    width:20%;
+       
+}
+footer:only-of-type img{
+    padding: .5em;
+}   
+
+
+
+
+/*SECTION LAST OF TYPE */
+/*opmaak voor knoppen*/
+section:last-of-type button{
+    background-color:var(--light);
+    padding: .5em;
+    color: black;
+    width:5em;
+    font-size: 1rem;
+    margin-left: 1em;
+    border-radius: .25rem;
+    border: 1px solid transparent;
+  
+    
+}
+section:last-of-type{
+ padding: 1em;
+ color:var(--white)
+}
+
+
+/* opmaak van blokken*/
+section:last-of-type article{
+   padding: 1em;
+   margin-top: 2em;
+   border-radius: .25rem;
+}
+section:last-of-type article h5{
+    font-size: 2rem;
+}
+/*voor de paragraaf in de blokken*/
+section:last-of-type p{
+    padding: 0;
+
+}
+/*article 1 Nieuws  */ 
+article:first-of-type{
+    background-color: #f2eee6;
+    color: black;
+}
+
+
+/*article 2  Verstoringn  */ 
+article:nth-of-type(2){
+   /* background-color:var(--red);*/
+   background-color:#ff5400;
+}
+
+article:nth-of-type(2) form{
+    text-decoration: none;
+
+}
+
+/*article  Nieuws   */ 
+article:nth-of-type(3){
+background-color:var(--blue);
+}
+
+/*article  zakkelijk */
+article:nth-of-type(4){
+background-image: url(images/travel.jpg);
+font-weight: bold;
+    
+}
+/*article  9292  prijswijzer*/
+article:nth-of-type(5){
+background-color: #222222;
+
+}
+/*article  FAQ  */
+article:nth-of-type(6){
+    background-color: var(--blue);
+}
+article:nth-of-type(6) h4 p{
+    color:var(--white)
+}
+
+/*article  Tarieven */
+article:nth-of-type(7){
+background-color: #222222;
+}
+
+/*article  in de buurt  */
+article:nth-of-type(8){
+    background-color: #f2eee6;
+    color:black;
+}
+article:nth-of-type(8) h4 p {
+    color: black
+}
+/*article zoek een halte   */
+ section:last-of-type article:last-of-type{
+    background-image: url(images/tram.jpg);
+    
+}
+
+
+
+footer:first-of-type {
+    background-color :#222222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:0
+
+}
+footer:first-of-type h5{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 1em;
+}
+
+footer:first-of-type ul{
+    list-style: none;
+    text-align: left;
+   
+}
+
+/* ik wou een selector voor de h5 gebruiken maar ik kon geen goede selector vinden die hierbij past*/
+.socialmedia {
+    display:flex;
+}
+.socialmedia li{
+    list-style: none;
+}
+.socialmedia ,img{
+    width: 50%;
+   
+}
+
+
+footer:first-of-type li a{
+ text-decoration: none;
+ color:var(--white);
+ font-size:0.8rem;
+}
+
+footer:first-of-type ul img{
+    width: 30%;
+    padding: 0;
+
+
+}
+
+
+/*dit is de derde footer*/
+footer:last-of-type{
+    background-color: black;
+   
+
+}
+footer:last-of-type p {
+color: var(--white);
+padding: 2em;
+font-size: 1rem;
+
+
+
+}
+

@@ -1,0 +1,173 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+
+}
+
+/*ROOT*/
+
+:root {
+    --blue: #009ae0 ;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --orange:#ff5400;
+    --borderraduis:.25rem;
+    
+}
+
+/*BODY*/
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: 1em;  
+}
+
+/*HEADER*/
+header {
+    display: flex;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--gray-dark); 
+}
+
+header h1 {
+    font-size: 1em;
+    color: var(--primary);
+    font-weight:lighter;
+    padding: .5em;  
+}
+
+header img{
+    width:10%;
+}
+
+header img:first-of-type{
+    width: 3em;
+}
+
+header img:nth-of-type(2){
+    position: absolute;
+    right:3em;     
+}
+
+/*EERSTE FOOTER*/
+footer:first-of-type h2{
+    background-color: black;
+    color:var(--white);
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: .5em;
+    font-weight: 400;
+    margin-top: 1em;
+}
+
+footer:first-of-type {
+    background-image: url(images/backgroundimg.jpg);
+    background-repeat: no-repeat;
+}
+footer:first-of-type ul{
+    list-style: none;
+    display: flex;
+}
+footer:first-of-type ul img{
+    width: 50%;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+/*contact en servoces*/
+article :first-of-type{
+   
+}
+/*Veelgestelde vragen*/
+article :nth-of-type(2){
+}
+/*Veelgestelde vragen*/
+article :nth-of-type(3){
+}
+
+article :nth-of-type(4){
+}
+
+article :nth-of-type(5){
+}
+
+
+
+
+
+
+/*TWEEDE FOOTER*/
+footer:nth-of-type(2){
+    background-color :#222222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:0
+
+}
+
+footer:nth-of-type(2) h4{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 1em;
+
+}
+footer:nth-of-type(2) ul {
+    list-style: none;
+    text-align: left;
+
+}
+footer:nth-of-type(2) li a{
+    text-decoration: none;
+    color:var(--white);
+    font-size:0.8rem;
+   }
+   
+footer:nth-of-type() ul img{
+       width: 30%;
+       padding: 0;
+}
+.socialmedia {
+    display:flex;
+}
+.socialmedia li{
+    list-style: none;
+}
+.socialmedia ,img{
+    width: 50%;
+   
+}
+
+footer:last-of-type{
+    background-color: black;
+   
+
+}
+footer:last-of-type p {
+color: var(--white);
+padding: 2em;
+font-size: 1rem;
+
+
+
+}
