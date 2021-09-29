@@ -108,8 +108,12 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 - punt 2
 - nog een punt
 - ...
-
-</details>
+In week 1 heb ik samen met mijn klasgenoten voor de gesprek een meeting gehouden. Bij de meeting hebben we besproken wat we 
+ allemaal er over willen weten tijdens de gesprek met de docent. Bij het gesprek vertelde de docent wat tot nu toe voor de website moeten zoals 
+ de header, footer en wat content. Voor mijn website heb ik alleen de html code gegeschreven maar geen styling toegepast. Ik liet de docent mijn website zien.
+ Ik was niet zo ver met mijn website omdat ik was meer gefocusd op de oefeningen die we voor de lessen moeten maken.Als ik de oefening niet snap  kan ik
+ niet verder met mijn website. Ik probeerde dus de oefening te maken zodat ik verder met mijn website kon. We hebben een tip van docent gekregen om de oefening gelijk aan onze websites toe te passen zodat we niet achterliepen. Als laastse concludeerde de docent door onze te vertellen wat we aan het einde van de dag /voor de volgende les af moet hebben.
+ 
 
 
 
