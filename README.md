@@ -147,12 +147,20 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 - ...
 
 </details>
+ Ik zat in het begin in de verkeerde groep daardoor was ik laat maar  ik
+ over mijn website bespreken met de studentassiatanten. Ik had al Bo gevraagd om mij te helpen
+ met een stukje code  in mijn css maar volgens mij ws zij het vergeten dus zij heeft me 
+ tijdens de les daarmee geholpen. Ik was best wel ver met  mijn website vergeleken met vorige week. Ik had de twee pagina gestijld met css. 
+ Ik moest alleen javascript en animatie in mijn website verwerken. Bo gaf mijn tips hoe ik op mijn website javascript en animatie toe kan passen. 
+ Wat ik merkte bij mijn klasgenoten was dat ik en stukje verder was met  mijn website dan de rest. Ik dacht zelf dat ik achter liep omdat vorige week waren ze al begonnen met 
+ stijlen van hun website. Ik kreeg complimenten van de studentassistanten dat mijn website best wel leuk eruit ziet.
 
 
 
 
 
 ## Toegankelijkheidstest (week 4)
+ Ik was niet aanwezig . ik zal een klasgenoot mijn website laten testen.
 
 <details>
 <summary>uitwerken na test in 8e voortgang</summary>
@@ -194,6 +202,8 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <details>
 <summary>uitwerken voor 3e voortgang</summary>
 
+ 
+ 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
