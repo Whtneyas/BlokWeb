@@ -1,0 +1,299 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+
+}
+
+/*ROOT*/
+
+:root {
+    --blue: #009ae0 ;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --orange:#ff5400;
+    --borderraduis:.25rem;
+    
+}
+
+/*BODY*/
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: 1em;  
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*HEADER*/
+header {
+    display: flex;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--gray-dark);     
+}
+
+header h1 {
+    font-size: 1em;
+    color: var(--primary);
+    font-weight:lighter;
+    padding: .5em;  
+}
+
+header img{
+    width:10%;
+}
+
+header img:first-of-type{
+    width: 3em;
+}
+
+header img:nth-of-type(2){
+    position: absolute;
+    right:3em;     
+}
+
+/*MAIN*/
+/*EERSTE FOOTER*/
+footer:first-of-type h2{
+    background-color: black;
+    color:var(--white);
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: .5em;
+    font-weight: 400;
+    margin-top: 1em;  
+}
+
+section{
+    display: flex;
+    flex-direction:column;    
+}
+
+/*contact service dropdown menu*/
+.drop-downmenu {
+    background-color: var(--blue);
+    padding:1em;
+    color: var(--white);
+    font-size: 1em;
+    border-radius:var(--borderraduis);
+    border:1px solid transparent;
+    margin-bottom: 1em;
+   
+}
+
+/* opmaak voor de tekst van alle article  */
+article{
+    font-size: .8em;
+    line-height: 1.5em;   
+}
+
+article h3{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+/*contact en services*/
+article:first-of-type{
+    background-color:var(--light);
+    color:black;
+    padding:.5em;
+    margin-top:0;
+    border-radius: .25em;
+    box-shadow: 0px 0px 2px 2px var(--light);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+article:first-of-type h3{
+    font-size: 3.5em;
+    line-height: 3rem;
+}
+
+/* een kleur aan de eerst zin geven*/
+article:first-of-type p:first-of-type {
+    color:var(--blue);
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2rem;
+}
+
+/*afbeeding onder de contact en services*/
+article:first-of-type img{
+    width: 23em;
+}
+
+/*Veelgestelde vragen*/
+article:nth-of-type(2){
+    background-color: #222;
+    border-radius: .25rem;
+    margin-top:1em;
+    padding: 1em;
+    color: var(--white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article:nth-of-type(2) a{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+}
+
+/*opmaak voor de details (underline)*/
+article:nth-of-type(2) details :hover{
+    text-decoration: underline;    
+}
+
+/*OV-chipkaart*/
+article:nth-of-type(3){
+    background-color: #222;
+    border-radius: .25rem;
+    margin-top:1em;
+    color: var(--white);
+    padding: 1em;
+    border-radius: .25em;
+    margin-top: 1em;
+}
+
+
+/*Reis advies en Informatie */
+article:nth-of-type(4){
+    background-color:var(--light);
+    color:black;
+    margin-top: 1em;
+    border-radius: .25em;
+    box-shadow: 0px 0px 2px 2px var(--light);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 2px 2px var(--light);
+    padding: 1em;
+}
+
+/*OV-bedrijven*/
+article:nth-of-type(5){
+    background-color:var(--light);
+    color:black;
+    margin-top: 1em;
+    border-radius: .25em;
+    box-shadow: 0px 0px 2px 2px var(--light);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 2px 2px var(--light);
+    padding: 1em;
+}
+
+article:nth-of-type(5) details{
+    color: var(--blue);
+    font-weight: bold;
+}
+
+article:nth-of-type(5) details:hover {
+    text-decoration: underline;
+}
+
+/*Hoofdkantoor*/
+
+article:nth-of-type(6){
+    background-color: var(--blue);
+    padding: 1em;
+    color: var(--white);
+    margin-top: 1em;
+    border-radius: .25em;
+}
+
+article:nth-of-type(6) a {
+    text-decoration: none;
+    color:var(--white);
+    font-weight: bold;  
+}
+
+/*Postadres */
+article:last-of-type{
+    background-color: var(--blue);
+    padding: 1em;
+    color: var(--white);
+    margin-top: 1em;
+    border-radius: .25em;
+}
+
+article:last-of-type p {
+    line-height: .8em;
+}
+ 
+/*TWEEDE FOOTER*/
+footer:nth-of-type(2){
+    background-color :#222222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:0;
+    margin-left: -2em;
+    margin-right:-2em ;
+    margin-bottom: -2em;
+}
+
+footer:nth-of-type(2) h4{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 1em;
+}
+
+footer:nth-of-type(2) ul {
+    bottom: 4em;
+    list-style: none;
+    text-align: left;
+
+}
+
+footer:nth-of-type(2) li a{
+    text-decoration: none;
+    color:var(--white);
+    font-size:0.8rem;
+}
+   
+footer:nth-of-type(2) ul img{
+       width: 30%;
+       padding: 0;
+}
+
+
+/*knop opmaak*/
+
+footer:nth-of-type(2) a:hover {
+    color: var(--blue);
+}
+
+footer:nth-of-type(2) a:active{
+    border:1px solid var(--blue)
+}
+
+footer:nth-of-type(2) ul:last-of-type img {
+    width: 8%;
+}
+
+/*LAASTSE FOOTER*/
+
+footer:last-of-type{
+    background-color: black;
+    margin-left: -2em;
+    margin-right:-2em ;
+    margin-bottom: -3em;
+}
+
+footer:last-of-type p {
+color: var(--white);
+padding: 2em;
+font-size:small;
+}
