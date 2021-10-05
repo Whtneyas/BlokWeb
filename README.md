@@ -168,8 +168,13 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
+#### Titel eerste bevinding onleesbaar tekst
 Hier korte omschrijving (met indien nodig een afbeelding)
+ De tekst op de achtergrond was niet leesbaar dus ik heb de achtegrond (afbeelding)
+ in photoshop bewerkt  door de opacity aan te passen. 
+ 
+ ![image](https://user-images.githubusercontent.com/90154152/136053453-e73f6950-70d4-4c19-8a32-ac7c4bb497bd.png)
+
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
@@ -225,6 +230,9 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 - punt 2
 - nog een punt
 - ...
+ 
+ IK was best wel ver met mijn website.Ik heb een paar icoontjes toevoegd om de website mooier 
+ eruit te zien.
 
 </details>
 
@@ -239,10 +247,34 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+ 
+ Deze week is de laatste week van frontend. Ik heb mijn code voor het laastse keer  doorgenomen. Ik probeerde comments bij te voegen om 
+ mijn code duidelijker te maken voor mezelf en ook voor de docent tijdens de mondeling. Vervolgens heb ik onnodig ruimte in mijn code weggehaald om de code
+ overzichtelijk te maken. Ik wou mijn website responsive maken als ik meer tijd over heb, maar helaas kon ik het niet doen. Ik was wel daarmee bezig maar ik wou
+ eerst op de surface plane focusen, dan pas de responsiveness van de website. 
 ### Screenshot(s)
+ ![image](https://user-images.githubusercontent.com/90154152/136056369-b9372eb1-a617-4a54-a752-b4b94422c996.png)
+
 
 hier screenshot(s) van je eindresultaat
+ Eerste pagina 
+ ![image](https://user-images.githubusercontent.com/90154152/136056456-6e0cc06e-661b-4f51-a42a-baf8ec772097.png)
+![image](https://user-images.githubusercontent.com/90154152/136056585-bd564bed-cf80-4b7d-b1ea-0a82ee6bf395.png)
+ ![image](https://user-images.githubusercontent.com/90154152/136056758-8ff72c4c-28dc-4d2f-9d42-0a1464c28508.png)
+![image](https://user-images.githubusercontent.com/90154152/136056889-70186b26-a4c4-449f-8b44-b15e77a0a0e3.png)
+![image](https://user-images.githubusercontent.com/90154152/136057097-f0b212db-10c7-41a8-9c14-b455e8b75dea.png)
+![image](https://user-images.githubusercontent.com/90154152/136057176-9d319329-1bcb-4a03-a103-a313e037825f.png)
+![image](https://user-images.githubusercontent.com/90154152/136057677-48d4fc52-ffc4-4441-8471-ed9297897f4a.png)
+ 
+ Tweede pagina 
+ ![image](https://user-images.githubusercontent.com/90154152/136057926-ace1f06d-e3e1-4306-ace0-0480e3bc6b07.png)
+ ![image](https://user-images.githubusercontent.com/90154152/136058046-f75095a5-9295-4fc0-a01a-f7b24a1c2fbb.png)
+![image](https://user-images.githubusercontent.com/90154152/136058103-564ac24f-a540-4542-b3b0-7bb70b4e48ef.png)
+ ![image](https://user-images.githubusercontent.com/90154152/136058240-a0172df9-1ca6-44a3-a5f1-ecb0bdc3f6a4.png)
+![image](https://user-images.githubusercontent.com/90154152/136058289-7f1b33d4-1051-45e9-b5e7-8c5bb4753dc9.png)
+![image](https://user-images.githubusercontent.com/90154152/136058382-36ada8bc-ced2-4278-be5d-7d4397e822fa.png)
+
+
 
 </details>
 
