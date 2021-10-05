@@ -289,8 +289,10 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
-
+1. logo 9292:https://9292.nl/
+2. menu icoojntje : https://css.gg/app. ...
+3. afbeeldingen :appstore,playstore en appgallery:https://9292.nl/
+4. Voor het blokjes heb ik flex gebruikt:https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+5. formulier:https://css-tricks.com/form-design/
+6.backgroundimage:https://www.w3schools.com/cssref/pr_background-image.asp
 </details>
