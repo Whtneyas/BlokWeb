@@ -10,21 +10,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Jij
+## Whitney Abrah
 
 <details open>
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
-
+Whitney Abrah
 #### Je startniveau:
 hier je startniveau (kies uit zwart, rood óf blauw)
 Rode piste 
  
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
-Surface plane  
+Ik wil me zich op surface plane focussen als ik meer tijd over heb ga ik ook responsiveness toevoegen 
+ aan mijn ontwerp
 </details>
 
 
@@ -88,31 +87,14 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
 In week 1 heb ik samen met mijn klasgenoten voor de gesprek een meeting gehouden. Bij de meeting hebben we besproken wat we 
- allemaal er over willen weten tijdens de gesprek met de docent. Bij het gesprek vertelde de docent wat tot nu toe voor de website moeten zoals 
- de header, footer en wat content. Voor mijn website heb ik alleen de html code gegeschreven maar geen styling toegepast. Ik liet de docent mijn website zien.
- Ik was niet zo ver met mijn website omdat ik was meer gefocusd op de oefeningen die we voor de lessen moeten maken.Als ik de oefening niet snap  kan ik
- niet verder met mijn website. Ik probeerde dus de oefening te maken zodat ik verder met mijn website kon. We hebben een tip van docent gekregen om de oefening gelijk in onze websites verwerken zodat we niet achterliepen. Als laastse concludeerde de docent door onze te vertellen wat we aan het einde van de dag /voor de volgende les af moet hebben.
+allemaal er over willen weten tijdens de gesprek met de docent. Bij het gesprek vertelde de docent wat tot nu toe voor de website moeten zoals 
+de header, footer en wat content. Voor mijn website heb ik alleen de html code gegeschreven maar geen styling toegepast. Ik liet de docent mijn website zien.
+Ik was niet zo ver met mijn website omdat ik was meer gefocusd op de oefeningen die we voor de lessen moeten maken.Als ik de oefening niet snap  kan ik
+niet verder met mijn website. Ik probeerde dus de oefening te maken zodat ik verder met mijn website kon. We hebben een tip van docent gekregen om de oefening
+gelijk in onze websites verwerken zodat we niet achterliepen. Als laastse concludeerde de docent door onze te vertellen wat we aan het einde van de dag /voor 
+de volgende les af moet hebben.
  
 
 
@@ -125,28 +107,7 @@ In week 1 heb ik samen met mijn klasgenoten voor de gesprek een meeting gehouden
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
-
-</details>
+ 
  Ik zat in het begin in de verkeerde groep daardoor was ik laat maar  ik
  over mijn website bespreken met de studentassiatanten. Ik had al Bo gevraagd om mij te helpen
  met een stukje code  in mijn css maar volgens mij ws zij het vergeten dus zij heeft me 
@@ -204,32 +165,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 
 ## Voortgang 3 (week 4)
 
-<details>
-<summary>uitwerken voor 3e voortgang</summary>
 
- 
- 
-### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
  
  IK was best wel ver met mijn website.Ik heb een paar icoontjes toevoegd om de website mooier 
  eruit te zien.
