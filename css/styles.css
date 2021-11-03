@@ -117,7 +117,7 @@ input{
     padding: 1em;   
    
 }
-/* de kleur van de text die in de formulier staat*/
+/* de kleur van de text die in het  formulier staat*/
 input::placeholder{
     color:gainsboro;
 }
@@ -130,7 +130,7 @@ form input:hover {
 form input:focus{
      border: 0;
      outline: none;
-    box-shadow: 0px 0px 2px  2px var(--blue);
+     box-shadow: 0px 0px 2px  2px var(--blue);
 }
 
 /*opmaak voor de knop van het formulier*/
