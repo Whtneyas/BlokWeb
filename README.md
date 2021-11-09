@@ -130,7 +130,7 @@ de volgende les af moet hebben.
 Lijst met je bevindingen die in de test naar voren kwamen:
 
 #### Titel eerste bevinding onleesbaar tekst
-Hier korte omschrijving (met indien nodig een afbeelding)
+Contrast 
  De tekst op de achtergrond was niet leesbaar dus ik heb de achtegrond (afbeelding)
  in photoshop bewerkt  door de opacity aan te passen. 
  
@@ -140,22 +140,21 @@ Hier korte omschrijving (met indien nodig een afbeelding)
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+Screenreader 
+Ik heb de screen reader gebruikt op m ijn website en ik zag dat de ik de beschrijvingen van alle afbeeldingen mis.
+ik heb dus in mijn code de beschrijving van de afbeelding in de alt element gezet. 
+ 
+ 
+Slecht motoriek 
+Ik heb elastiekjes om mijn wijs en middelvinger gedaan om te kijken hoe ik mijn website doorheen kan lopen. ik merkte dat 
+ ik kon niet snel typen met de elastiekjes om mijn vingers heen.
+ ![image](https://user-images.githubusercontent.com/90154152/140933016-b3353d20-55b6-49a1-9053-05d211cc9877.png)
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+ 
+Concentratie.
+Met de balloon in mijn linkerhand probeerde ik door  mijn website heen te lopen.  Ik kon wel focusen op mijn website maar ik denk als het om concentratie 
+ gaat, dan light het aan de gebruiker niet de website. 
 
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 </details>
 
