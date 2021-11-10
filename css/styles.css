@@ -2,6 +2,11 @@
     box-sizing: border-box;
 
 }
+*:focus{
+    outline-style: solid;
+    outline-color: var(--blue);
+    outline-width: 0.06em;
+}
 
 /*ROOT*/
 
@@ -37,7 +42,7 @@
 body{
     width: 100%;
     height: 100%;
-    padding:2em;
+    padding:0.5em;
     margin:0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
@@ -72,14 +77,6 @@ header img:nth-of-type(2){
 }
 
 /*OPMAAK HOMEPAGE*/
-
-section:first-of-type {
-    background-image: url(images/backgroundimg.jpg);
-    background-repeat: no-repeat;
-   
-    
-   
-}
 section:first-of-type h2{
     color: var(--blue);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -207,14 +204,6 @@ section:first-of-type footer{
     margin:0;
    
 }
-/*opmaak voor de apps*/
-article:first-of-type ul{
-    position: relative;
-    display: flex;
-    align-items: center;
-    list-style: none;
-
-}
 /*knop van e-ticket*/
 article:first-of-type button{
     background-color: var(--blue);
@@ -332,14 +321,20 @@ section:last-of-type p{
     padding: 0;
 
 }
+article {
+    position: relative;
+}
+article img {
+position: absolute;
+width: 10%;
+top: 2em;
+transform: translateX(2em);
+}
+
 /*article 1 Nieuws  */ 
 article:first-of-type{
     background-color: #f2eee6;
     color: black;
-}
-/*positioneren icon*/
-article:first-of-type img {
-bottom: -61em;
 }
 
 
@@ -349,10 +344,6 @@ article:nth-of-type(2){
    background-color:#ff5400;
 }
 
-/*positioneren icon*/
-article:nth-of-type(2) img {
-    bottom: -77em;   
-}
 
 /*opmaak voor de knop van verstoring*/
 article:nth-of-type(2) button {
@@ -371,10 +362,6 @@ article:nth-of-type(3){
 background-color:var(--blue);
 }
 
-/*positioneren icon*/
-article:nth-of-type(3) img {
-    bottom: -90em;
-}
 
 article:nth-of-type(3) details{
     background-color:var(--blue);
@@ -383,16 +370,15 @@ article:nth-of-type(3) details{
 
 /*article  zakkelijk */
 article:nth-of-type(4){
-background:url(images/travel.png) ;
-font-weight: bold;
-background-repeat: no-repeat;
+background-color:darkblue;
+color: white;
+
     
 }
-
-/*positioneren icon*/
-article:nth-of-type(4) img {
- bottom: -103em;
+article:nth-of-type(4) p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 /**de text voor javascript*/
 div{
@@ -412,42 +398,27 @@ div.meertext{
     display: block;  
 }
 
-/*article  9292  prijswijzer*/
+/*article    prijswijzer*/
 article:nth-of-type(5){
     background-color: #222222;
-}
-
-/*positioneren icon*/
-article:nth-of-type(5) img {
-    bottom: -117em;
-    
-   
 }
 
 /*article  FAQ  */
 article:nth-of-type(6){
     background-color: var(--blue);
+    color: black;
 }
 
 article:nth-of-type(6) img{
     bottom:-131em;
 
 }
-/*positioneren icon*/
-article:nth-of-type(6) h4 p{
-    color:var(--white)
-}
+
 
 /*article  Tarieven */
 article:nth-of-type(7){
     background-color: #222222;
 }
-
-/*positioneren icon*/
-article:nth-of-type(7) img {
-    bottom: -145em;
-}
-
 
 /*article  in de buurt  */
 article:nth-of-type(8){
@@ -455,10 +426,6 @@ article:nth-of-type(8){
     color:black;
 }
 
-/*positioneren icon*/
-article:nth-of-type(8) img {
-    bottom:-159em;
-}
 article:nth-of-type(8) h4 p {
     color: black
 }
@@ -476,16 +443,12 @@ article:nth-of-type(8) button:hover{
 
 /*article zoek een halte   */
  section:last-of-type article:last-of-type{
-    background-image: url(images/tram.png);  
-    background-image: black;
+   background-color: var(--blue);
+   color: black;
+
   
 }
 
-/*positioneren icon*/
-section:last-of-type article:last-of-type img{
-    bottom: -175em;
-    
-}
 /*Tweede footer*/
 footer:first-of-type {
     background-color :#222222;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,9 +24,10 @@
 
                 <!--Het formulier-->  
                 <h2>Waar wil je heen? </h2> 
-                <img src="images/tram.svg" alt="" class="tram">
+                <img src="images/tram.svg" alt="tram" class="tram">
+                <!--Bron : https://commons.wikimedia.org/wiki/Category:Tram_icons-->
             
-                <form action="">
+                <form >
                 <label>
                         Locatie :
                         <input type="text" name="name" placeholder="Van: Adres,station, postcode, etc" >
@@ -39,12 +40,12 @@
 
                     <label>
                         Datum:
-                        <input type="date " id="datum" name="trip start" value="20-07-2021"  min="2018-01-01" max="2018-12-31"> 
+                        <input> 
                     </label>
 
                     <label>
                         Tijd :
-                        <input type="Time " name="Time " value="00.00"  min="00.00" max="24.00"> 
+                        <input> 
                     </label>
                         
                     <button> Plan mijn reis </button>
@@ -64,14 +65,7 @@
                                 uitje, maar koop je ook direct een e-ticket voor de hele reis.  </p>
 
                         <p>  Download de app en plan je  reis </p>
-
-                        <!--Eerste lijst : apps afbeeldingen--> 
                             
-                        <ul>
-                            <li><a  href="contactpagina.html"><img src="images/googleplay.png" alt=""></a></li>
-                            <li><a  href="contactpagina.html"><img src="images/appstore.png" alt=""></a></li>
-                            <li><a  href="contactpagina.html"><img src="images/appgallery.png" alt=""></a></li>
-                        </ul>
                                     
                         <button>Lees meer </button>
                         
@@ -88,6 +82,7 @@
                         
                 <h5>Veel bezocht </h5>
                 <img src="images/plane.png" alt="">
+                <!--https://css.gg/app-->
                
                         
                 <ul>
@@ -105,12 +100,12 @@
                         
             <!--laastse section-->           
             <section>
-                        
+              
+                 <!--Bron voor alle icoontjes :https://css.gg/app-->         
                 <!--Artikel (2) nth- of type- (2) :Nieuws-->           
                 <article>
-                            
-                    <h4>Nieuws</h4>
-                    <img src="images/news.png" alt="">        
+                   <h4>Nieuws</h4>
+                    <img src="images/news.png" alt="Nieuws icon">      
                     <p>Fiets in de 9292 app </p>
                     <p>Plan je fiets mee in de app of check de fietsverhuurlocaties</p> 
                     <p> 3 september 2021  10:00</p>          
@@ -121,7 +116,7 @@
                 <article>
                             
                     <h4>Verstoring </h4>
-                   <img src="images/icons8-alarm-60.png" alt="">
+                   <img src="images/alarm1.png" alt="verstoring icoontje ">
                     <p>2 verstoring(en) in Nederland.</p>
                             
                     <button>Alle verstoring</button>
@@ -133,7 +128,7 @@
                 <article>
                                 
                     <h4>Mijn 9292</h4>
-                    <img src="images/icons8-cart-48 (1).png" alt="">
+                    <img src="images/cart.png" alt="winkelwagen">
                     <p>Alles wat je moet weten bij de hand: Thuis & onderweg.</p>
 
                     <details>
@@ -148,7 +143,7 @@
                 <article>
                                 
                     <h4>Zakkelijk</h4>
-                     <img src="images/zakkelijk.png" alt="">           
+                     <img src="images/zakkelijk.png" alt="zakkelijk">           
                     <p>Gebruik onze OV-informatie in je eigen app of website.</p>
                                 
                     <button class="button">Meer</button>
@@ -165,7 +160,7 @@
                 <article>
                                 
                     <h4>Prijswijzer</h4>
-                    <img src="images/icons8-euro-48.png" alt=""> 
+                    <img src="images/euro.png" alt="euro teken"> 
                         <p>Met de OV Prijswijzer helpen we je aan de beste prijs.</p>    
                             
                     
@@ -176,7 +171,7 @@
                 <article >
                                 
                     <h4>FAQ</h4>
-                    <img src="images/chat.png" alt="">
+                    <img src="images/chat.png" alt="bericht icoontje ">
                     <p>Nog vragen? Wellicht staat hier het antwoord!</p>         
                     
                     <button>Meer</button>         
@@ -187,7 +182,7 @@
                 <article>
                                 
                     <h4>Tarieven</h4>
-                    <img src="images/icons8-business-report-48.png" alt="">
+                    <img src="images/tarief.png" alt="tarief icoontje ">
                     <p>Reis je regelmatig met het OV? Ontdek de verschillende prijzen & abonnementen.</p>
                                 
                     <details>
@@ -201,20 +196,21 @@
                 <article>
                                 
                     <h4>In de buurt </h4>
-                    <img src="images/location.png" alt="">
+                    <img src="images/map.png" alt=" map">
                     <p>Reis je regelmatig met het OV? Ontdek de verschillende prijzen & abonnementen.</p>           
                     
                     <button>Locatie</button>          
                 
                 </article>           
                             
-                <!--Artikel last-of-type:Tarieven-->             
+                <!--Artikel last-of-type:Zoek halt of station-->             
                 <article>
                                 
                     <h4>Zoek halt of station</h4>
-                    <img src="images/icons8-search-48 (1).png" alt="">
+                    <img src="images/searchbuttton.png" alt="zoek icoontje ">
                     <p>Zoek een halte of station en bekijk de vertrektijden of toegankelijkheid.</p>           
                 </article>  
+                
                             
             </section>  
 
@@ -240,14 +236,15 @@
    
         </ul>
 
-        <!--Apps -->       
+        <!--Apps --> 
+        <!--Bron voor de afebeeldingen van de apps : https://play.google.com/store/apps/details?id=nl.negentwee-->      
         <h5>App</h5>
                 
         <ul>
                 
-            <li><img src="images/googleplay.png" alt=""></li>               
-            <li><img src="images/appstore.png" alt=""></li>               
-            <li><img src="images/appgallery.png" alt=""></li>
+            <li><img src="images/googleplay.png" alt="googleplay store "></li>               
+            <li><img src="images/appstore.png" alt="applestore"></li>               
+            <li><img src="images/appgallery.png" alt="appgallery"></li>
                 
         </ul>
 
@@ -257,10 +254,10 @@
                     
             <ul >
                     
-            <li><img src="images/instagram.png" alt=""></li>               
-            <li><img src="images/twitter.png" alt=""></li>                    
-            <li><img src="images/linkedin.png" alt=""></li>
-            <li><img src="images/icons8-facebook-48.png" alt=""></li>
+            <li><img src="images/instagram.png" alt="instagram"></li>               
+            <li><img src="images/twitter.png" alt="twitter"></li>                    
+            <li><img src="images/linkedin.png" alt="linkedin"></li>
+            <li><img src="images/facebook.png" alt="facebbok"></li>
                 
         </ul>
 
@@ -277,7 +274,7 @@
                         
     </footer>
 
-    <script src="script.js"></script>
+    <script src="./js/script.js"></script>
 
     </body>
     
