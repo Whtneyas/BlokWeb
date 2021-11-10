@@ -225,15 +225,6 @@ section:nth-of-type(2) {
     margin-right:1.5em;
     border-radius: var(--borderraduis);
 }
-/*Icoontje van veel bezocht*/
-section:nth-of-type(2) img{
-    position: absolute;
-    width:10%;
-    display: flex;
-    right: 4em;
-    bottom: -43em;
-}
-
 section:nth-of-type(2) h5 ul li{
     font-size:14px;
     border: 1px solid black ;
@@ -304,6 +295,8 @@ width:10%;
 display:flex;
 position: absolute;
 right:4em;
+top: 2em;
+transform: translateX(2em);
 }
 
 /* opmaak van de blokken*/
@@ -323,12 +316,6 @@ section:last-of-type p{
 }
 article {
     position: relative;
-}
-article img {
-position: absolute;
-width: 10%;
-top: 2em;
-transform: translateX(2em);
 }
 
 /*article 1 Nieuws  */ 
